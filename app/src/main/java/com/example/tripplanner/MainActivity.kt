@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    //ฟังชั่นเมื่อเริ่มทำงาน อยู๋ใน document firebase
+    //ฟังชั่นเมื่อเริ่มทำงาน อยู๋ใน document firebase//0
     override fun onStart() {
         super.onStart()
         val currentUser = auth!!.currentUser
